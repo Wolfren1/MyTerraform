@@ -46,7 +46,7 @@ resource "aws_security_group" "new_sg" {
 
 resource "aws_key_pair" "keygen1" {
   key_name   = "kg1"
-  public_key = "${file("/home/ec2-user/kg1.pub")}"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC6nAKvKaC9QByMWZu1die47Mkj6Iz4bRsOLGZRdgMOqcu41mNyhcl1rzwW82fgEfm+gO9eVPHh9GbZM+U4RDAeonQCjAdwsbzjoH9PnEFjScJj5un6JMIWNmfa6LZ1WwDQb8RI29WNWb8U/9nivIS5NARLyIy9NCfV/CcVybJoF2fmv7Chr2a9UY0MHw80tM3P+3It2U6aeL8yPomVrorQfEAGqlG13PhfcDcbE9G2AG5KeBkTcJ3sgDZ+Da2tggZrlF14Rlh3NeaxUL/Za3Y60pqTEx6JjyGRxcU8i5NyC6O29tsKtzjbG3tePtxXDKt9nphhV4SZmpTDmCp4Z22/ ec2-user@ip-172-31-83-226.ec2.internal"
 
 }
 
