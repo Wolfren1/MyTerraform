@@ -46,7 +46,7 @@ resource "aws_security_group" "new_sg" {
 
 resource "aws_key_pair" "keygen1" {
   key_name   = "kg1"
-  public_key = "${file("kg1.pub")}"
+  public_key = "${file("/home/ec2-user/kg1.pub")}"
 
 }
 
